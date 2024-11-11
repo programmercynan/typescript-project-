@@ -21,3 +21,11 @@ const myCar: Car = {
     fuelEfficiency: 30, //mpg
     maxSpeed: 120, // mph
 };
+
+// calculate the time to reach max speed from 0 with a given acceleration
+function timeToMaxSpeed(acceleration: number): number {
+      // Type annotation for the parameter and the return type
+      // formula: time = maxSpeed / acceleration
+      return myCar.maxSpeed / acceleration;
+    
+}
