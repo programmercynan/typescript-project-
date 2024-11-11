@@ -29,3 +29,10 @@ function timeToMaxSpeed(acceleration: number): number {
       return myCar.maxSpeed / acceleration;
     
 }
+
+// calculate the fuel used for a given distance 
+function fuelUsedForDistance(distance: number): number {
+     // Type inference for result, which TypeScript infers as a number
+     const fuelUsed = distance / myCar.fuelEfficiency;
+     return fuelUsed;
+}
