@@ -13,3 +13,11 @@ interface Car {
     maxSpeed: number; // miles per hour
 }
 
+// create an example car object with type annotations
+const myCar: Car = {
+    make:"Toyota",
+    model: "Corolla",
+    year: 2020,
+    fuelEfficiency: 30, //mpg
+    maxSpeed: 120, // mph
+};
